@@ -10,18 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TitleView()
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundStyle(.tint)
-//            Text("Hello, world!")
-//        }
-//        .padding()
     }
 }
 
 #Preview {
-    let theme = PicoStarsTheme(name: "default", imageNames: ["Title/Big Planet", "Title/Blue Moon", "Title/Title"])
+    let theme = PicoStarsTheme(name: "default", imageNames: ["Title/Big Planet", "Title/Blue Moon", "Title/Title", "Title/Starfield"])
     
     ContentView()
         .environment(theme)

@@ -13,6 +13,8 @@ import ImageIO
 final class PicoStarsTheme: Sendable {
     let name: String
     
+    let titleImageNames = ["Title/Big Planet", "Title/Blue Moon", "Title/Title", "Title/Starfield"]
+    
     private let images: [String: UIImage]
         
     init(name: String, imageNames: [String]) {

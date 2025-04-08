@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct picostarsApp: App {
-    @State private var theme = PicoStarsTheme(name: "default", imageNames: ["Title/Big Planet", "Title/Blue Moon", "Title/Title"])
+    @State private var theme = PicoStarsTheme(name: "default", imageNames: ["Title/Big Planet", "Title/Blue Moon", "Title/Title", "Title/Starfield"])
     
     var body: some Scene {
         WindowGroup {
